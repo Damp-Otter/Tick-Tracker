@@ -7,9 +7,9 @@
 I created a virtual environment for running the project, I will copy the
 commands used and the installs. This was on windows, I think the commands 
 will be the same regardless.
--     `python -m pip install django`
--     `python -m pip install djangorestframework`
--     `python -m pip install data_wizard`
+-     python -m pip install django
+-     python -m pip install djangorestframework
+-     python -m pip install data_wizard
 
 ------------------------------------------------------------------------
 
