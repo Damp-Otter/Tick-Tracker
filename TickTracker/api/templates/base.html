@@ -1,0 +1,18 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>{% trans 'AppName' %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block head_meta %}{% endblock %}
+</head>
+  <div class="container">
+  <h1 class="text-body-emphasis">{% block page_title %}{% endblock %}</h1>
+  {% block content %}
+  {% endblock %}
+  </div>
+  {% block body_end_meta %}
+  {% endblock %}
+</html>
